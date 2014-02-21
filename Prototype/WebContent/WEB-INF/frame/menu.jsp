@@ -7,7 +7,6 @@
 				<li><a href=""><span class="icon-dashboard"></span>Dashboard</a></li>
 				<li><a href=""><span class="icon-clipboard-2"></span>Employee
 						Report</a></li>
-				<li class="divider"></li>
 			</ul></li>
 		<li class="tree-sub-menu"><a class="dropdown-toggle" href="#">Supervisor</a>
 			<ul class="dropdown-menu" data-role="dropdown">

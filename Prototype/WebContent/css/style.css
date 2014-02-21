@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 body {
-	
+	background-color: #e5e5e5;
 }
 
 .clear {
@@ -16,7 +16,7 @@ body {
 }
 
 .content {
-	background-color: #e5e5e5;
+	
 }
 
 .menu {
@@ -61,15 +61,4 @@ body {
 
 .footer {
 	
-}
-
-.metro .navigation-bar.fixed-left,.metro .navbar.fixed-left {
-	position: fixed;
-	z-index: 1030;
-	left: 0;
-}
-
-.metro .navigation-bar.fixed-left,.metro .navbar.fixed-left {
-	right: auto;
-	left: 0;
 }
