@@ -27,7 +27,7 @@
 				<div class="grid fluid">
 					<div class="row">
 						<div class="span6 bg-amber padding20 text-center">
-							<h2 class="fg-white">ayam lo</h2>
+							<h2 class="fg-white">To do List</h2>
 						</div>
 						<div class="span6 bg-green padding20 text-center">
 							<h2 class="fg-white">Ranking</h2>
