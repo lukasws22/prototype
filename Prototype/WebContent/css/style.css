@@ -13,17 +13,17 @@ body {
 	border-width: 10px;
 	width: 100%;
 	float: left;
-	margin-bottom: 35px;
 }
 
 .content {
-	
+	background-color: #e5e5e5;
 }
 
 .menu {
-	width: 20%;
-	float: left;
-	height: 960px;
+	width: 240px;
+	height: 640px;
+	position: fixed;
+	margin-top: 37px;
 }
 
 .logo {
@@ -31,11 +31,15 @@ body {
 }
 
 .dashboard {
+	margin-top: 35px;
+	margin-left: 240px;
+	width: auto;
 	padding: 20px 30px;
 	height: auto;
-	width: 80%;
 	float: left;
 	height: auto;
+	background-color: #e5e5e5;
+	padding: 20px 30px;
 }
 
 .to-do {
@@ -56,6 +60,16 @@ body {
 }
 
 .footer {
-	clear: both;
-	display: none;
+	
+}
+
+.metro .navigation-bar.fixed-left,.metro .navbar.fixed-left {
+	position: fixed;
+	z-index: 1030;
+	left: 0;
+}
+
+.metro .navigation-bar.fixed-left,.metro .navbar.fixed-left {
+	right: auto;
+	left: 0;
 }
