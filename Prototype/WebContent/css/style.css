@@ -20,10 +20,10 @@ body {
 }
 
 .menu {
+	position: fixed;
 	width: 240px;
 	height: 640px;
-	position: fixed;
-	margin-top: 37px;
+	margin-left: -43px;
 }
 
 .logo {
@@ -33,24 +33,17 @@ body {
 .dashboard {
 	margin-top: 35px;
 	margin-left: 240px;
-	width: auto;
 	padding: 20px 30px;
-	height: auto;
-	float: left;
 	height: auto;
 	background-color: #e5e5e5;
 	padding: 20px 30px;
 }
 
 .to-do {
-	width: 50%;
-	float: left;
-	width: 50%;
-	margin-right: 5px;
+	padding: auto;
 }
 
 .ranking {
-	width: 50%;
 	float: left;
 	margin-left: 5px;
 }

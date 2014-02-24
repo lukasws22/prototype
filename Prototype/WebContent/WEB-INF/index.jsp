@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="css/metro-bootstrap.css">
+<link rel="stylesheet" href="css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery/jquery.min.js"></script>
 <script src="js/jquery/jquery.widget.min.js"></script>
@@ -14,62 +15,154 @@
 <title>Taps</title>
 </head>
 <body class="metro">
-
 	<%@ include file="frame/header.jsp"%>
-
-	<div class="content">
+	<div class="container">
 		<div class="menu">
 			<%@ include file="frame/menu.jsp"%>
 		</div>
 		<div class="dashboard">
 			<h1>Dashboard</h1>
-			<div class="container">
-				<div class="grid fluid">
-					<div class="row">
-						<div class="span6 bg-amber padding20 text-center">
-							<h2 class="fg-white">To-do List</h2>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-							diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-							aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-							exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-							commodo consequat. Duis autem vel eum iriure dolor in hendrerit
-							in vulputate velit esse molestie consequat, vel illum dolore eu
-							feugiat nulla facilisis at vero eros et accumsan et iusto odio
-							dignissim qui blandit praesent luptatum zzril delenit augue duis
-							dolore te feugait nulla facilisi. Nam liber tempor cum soluta
-							nobis eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							est usus legentis in iis qui facit eorum claritatem.
-							Investigationes demonstraverunt lectores legere me lius quod ii
-							legunt saepius. Claritas est etiam processus dynamicus, qui
-							sequitur mutationem consuetudium lectorum. Mirum est notare quam
-							littera gothica, quam nunc putamus parum claram, anteposuerit
-							litterarum formas humanitatis per seacula quarta decima et quinta
-							decima. Eodem modo typi, qui nunc nobis videntur parum clari,
-							fiant sollemnes in futurum.
+
+			<div class="grid fluid">
+				<div class="row to-do">
+					<div class="span6 bg-amber padding10 text-center center">
+						<h2 class="fg-white">To-do List</h2>
+
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								Claim <img src="images/taps.png">
+							</div>
+							<div class="brand">
+								<div class="badge">10</div>
+							</div>
 						</div>
-						<div class="span6 bg-green padding20 text-center">
-							<h2 class="fg-white">Ranking</h2>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-							diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-							aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-							exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-							commodo consequat. Duis autem vel eum iriure dolor in hendrerit
-							in vulputate velit esse molestie consequat, vel illum dolore eu
-							feugiat nulla facilisis at vero eros et accumsan et iusto odio
-							dignissim qui blandit praesent luptatum zzril delenit augue duis
-							dolore te feugait nulla facilisi. Nam liber tempor cum soluta
-							nobis eleifend option congue nihil imperdiet doming id quod mazim
-							placerat facer possim assum. Typi non habent claritatem insitam;
-							est usus legentis in iis qui facit eorum claritatem.
-							Investigationes demonstraverunt lectores legere me lius quod ii
-							legunt saepius. Claritas est etiam processus dynamicus, qui
-							sequitur mutationem consuetudium lectorum. Mirum est notare quam
-							littera gothica, quam nunc putamus parum claram, anteposuerit
-							litterarum formas humanitatis per seacula quarta decima et quinta
-							decima. Eodem modo typi, qui nunc nobis videntur parum clari,
-							fiant sollemnes in futurum.
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								Claim <img src="images/taps.png">
+							</div>
+							<div class="brand">
+								<div class="badge">10</div>
+							</div>
 						</div>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								Claim <img src="images/taps.png">
+							</div>
+							<div class="brand">
+								<div class="badge">10</div>
+							</div>
+						</div>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								Claim <img src="images/taps.png">
+							</div>
+							<div class="brand">
+								<div class="badge">10</div>
+							</div>
+						</div>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								Claim <img src="images/taps.png">
+							</div>
+							<div class="brand">
+								<div class="badge">10</div>
+							</div>
+						</div>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								Claim <img src="images/taps.png">
+							</div>
+							<div class="brand">
+								<div class="badge">10</div>
+							</div>
+						</div>
+					</div>
+					<div class="span6 bg-green padding20 text-center">
+						<h2 class="fg-white">Ranking</h2>
+						<table class="table striped bordered hovered">
+							<thead>
+								<tr>
+									<th class="text-left">Name</th>
+									<th class="text-left">Time CP</th>
+									<th class="text-left">Network</th>
+									<th class="text-left">Traffic</th>
+									<th class="text-left">Tiles update</th>
+								</tr>
+							</thead>
+
+							<tbody>
+								<tr class="">
+									<td>Bing</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+								<tr class="">
+									<td>Bing</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+								<tr class="">
+									<td>Bing</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+								<tr class="">
+									<td>Bing</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+								<tr class="">
+									<td>Bing</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+								<tr class="error">
+									<td>Bing</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+								<tr class="success">
+									<td>Internet Explorer</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+								<tr class="warning">
+									<td>Chrome</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+								<tr class="info">
+									<td>News</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+								<tr class="selected">
+									<td>Music</td>
+									<td class="right">0:00:01</td>
+									<td class="right">0,1 Mb</td>
+									<td class="right">0 Mb</td>
+									<td class="right">0,1 Mb</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 			</div>
