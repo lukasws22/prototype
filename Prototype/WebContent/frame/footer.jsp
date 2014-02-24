@@ -1,3 +1,5 @@
+<br>
+<br>
 <div class="bg-dark">
 	<div class="navigation-bar dark fixed-bottom shadow">
 		<div class="container tertiary-text bg-dark fg-white"

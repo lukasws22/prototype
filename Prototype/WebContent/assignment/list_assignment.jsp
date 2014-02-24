@@ -97,7 +97,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">RFA</a></td>
+								<td class="text-center"><a href="approval_assignment.jsp">RFA</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -106,7 +106,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">RFA</a></td>
+								<td class="text-center"><a href="approval_assignment.jsp">RFA</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -115,7 +115,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">RFA</a></td>
+								<td class="text-center"><a href="approval_assignment.jsp">RFA</a></td>
 							</tr>
 							<tr>
 								<td colspan=7 class="text-center">
