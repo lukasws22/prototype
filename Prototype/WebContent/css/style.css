@@ -8,49 +8,15 @@ body {
 	clear: both;
 }
 
-.header {
-	border-bottom: ridge;
-	border-width: 10px;
-	width: 100%;
-	float: left;
-}
-
-.content {
-	
-}
-
-.menu {
-	position: fixed;
-	width: 240px;
-	height: 640px;
-	margin-left: -43px;
+.dashboard {
+	margin-top: -20px;
 }
 
 .logo {
 	height: 25px;
 }
 
-.dashboard {
-	margin-left: 240px;
-	padding: 20px 30px;
-	height: auto;
-	background-color: #e5e5e5;
-	padding: 20px 30px;
-}
-
-.to-do {
-	padding: auto;
-}
-
-.ranking {
-	float: left;
-	margin-left: 5px;
-}
-
 .tree-sub-menu {
 	padding-left: 20px;
 }
 
-.footer {
-	
-}
