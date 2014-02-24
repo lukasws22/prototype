@@ -15,71 +15,18 @@
 <title>Taps</title>
 </head>
 <body class="metro">
-	<%@ include file="frame/header.jsp"%>
-	<div class="container">
-		<div class="grid fluid">
-			<div class="row">
-				<div class="span3 dashboard">
-					<%@ include file="frame/menu.jsp"%>
-				</div>
-				<div class="span9 dashboard">
-					<div class="row">
-						<div class="span4">
-							<h2 class="fg-white">To-do List</h2>
-							<div class="tile bg-cyan">
-								<div class="tile-content icon">
-									 <a href="assignment/list_assignment.jsp"><img
-										src="images/taps.png"></a>
-								</div>
-								<div class="brand">
-									<div class="badge bg-red">10</div>
-								</div>
-							</div>
-							<div class="tile bg-cyan">
-								<div class="tile-content icon">
-									Claim <img src="images/taps.png">
-								</div>
-								<div class="brand">
-									<div class="badge bg-red">10</div>
-								</div>
-							</div>
-							<div class="tile bg-cyan">
-								<div class="tile-content icon">
-									Claim <img src="images/taps.png">
-								</div>
-								<div class="brand">
-									<div class="badge bg-red">10</div>
-								</div>
-							</div>
-						</div>
+	<jsp:include page="frame/header.jsp" />
 
-						<div class="span8">
-							<h2 class="fg-white">Employee Ranking</h2>
-							<table class="table striped bordered hovered">
-								<thead>
-									<tr>
-										<td>#</td>
-										<td>Initial</td>
-										<td>Name</td>
-										<td>Star</td>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>1</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
-										<td>77</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
+	<div class="grid">
+		<div class="row">
+			<div class="span3 red">
+				<jsp:include page="frame/menu.jsp" />
 			</div>
+			<div class="span8 green">To-do List</div>
+			<div class="span6 blue">Employee Ranking</div>
 		</div>
 	</div>
 
-	<%@ include file="frame/footer.jsp"%>
+	<jsp:include page="frame/footer.jsp" />
 </body>
 </html>
