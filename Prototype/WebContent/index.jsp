@@ -16,7 +16,7 @@
 </head>
 <body class="metro">
 	<%@ include file="frame/header.jsp"%>
-	<div class="container">
+	<div class="container"> 	
 		<div class="menu">
 			<%@ include file="frame/menu.jsp"%>
 		</div>
