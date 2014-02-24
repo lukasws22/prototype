@@ -28,7 +28,8 @@
 							<h2 class="fg-white">To-do List</h2>
 							<div class="tile bg-cyan">
 								<div class="tile-content icon">
-									Claim <img src="images/taps.png">
+									 <a href="assignment/list_assignment.jsp"><img
+										src="images/taps.png"></a>
 								</div>
 								<div class="brand">
 									<div class="badge bg-red">10</div>
