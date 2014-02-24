@@ -22,10 +22,9 @@
 		</div>
 		<div class="dashboard">
 			<h1>Dashboard</h1>
-
 			<div class="grid fluid">
 				<div class="row to-do">
-					<div class="span6 bg-amber padding10 text-center center">
+					<div class="span6 bg-amber padding10 text-center">
 						<h2 class="fg-white">To-do List</h2>
 
 						<div class="tile bg-cyan">
@@ -33,7 +32,7 @@
 								Claim <img src="images/taps.png">
 							</div>
 							<div class="brand">
-								<div class="badge">10</div>
+								<div class="badge bg-red">10</div>
 							</div>
 						</div>
 						<div class="tile bg-cyan">
@@ -41,7 +40,7 @@
 								Claim <img src="images/taps.png">
 							</div>
 							<div class="brand">
-								<div class="badge">10</div>
+								<div class="badge bg-red">10</div>
 							</div>
 						</div>
 						<div class="tile bg-cyan">
@@ -49,7 +48,7 @@
 								Claim <img src="images/taps.png">
 							</div>
 							<div class="brand">
-								<div class="badge">10</div>
+								<div class="badge bg-red">10</div>
 							</div>
 						</div>
 						<div class="tile bg-cyan">
@@ -57,7 +56,7 @@
 								Claim <img src="images/taps.png">
 							</div>
 							<div class="brand">
-								<div class="badge">10</div>
+								<div class="badge bg-red">10</div>
 							</div>
 						</div>
 						<div class="tile bg-cyan">
@@ -65,7 +64,7 @@
 								Claim <img src="images/taps.png">
 							</div>
 							<div class="brand">
-								<div class="badge">10</div>
+								<div class="badge bg-red">10</div>
 							</div>
 						</div>
 						<div class="tile bg-cyan">
@@ -73,11 +72,12 @@
 								Claim <img src="images/taps.png">
 							</div>
 							<div class="brand">
-								<div class="badge">10</div>
+								<div class="badge bg-red">10</div>
 							</div>
 						</div>
 					</div>
-					<div class="span6 bg-green padding20 text-center">
+					
+					<div class="span6 bg-green padding10 text-center">
 						<h2 class="fg-white">Ranking</h2>
 						<table class="table striped bordered hovered">
 							<thead>
